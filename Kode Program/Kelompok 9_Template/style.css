@@ -1,0 +1,135 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+  }
+  
+  header {
+	background-color: #cacaca;
+	color: #242323;
+	padding: 20px; /* Tambahkan padding header */
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  main {
+	padding-top: 100px; /* Tambahkan padding agar konten utama tidak tertutup header */
+	overflow-y: scroll; /* Aktifkan scroll pada konten utama */
+	margin-left: auto; /* Tambahkan ini */
+	margin-right: auto; /* Tambahkan ini */
+  }
+  
+  form {
+	width: 400px; /* Sesuaikan lebar formulir */
+	margin: 0 auto;
+  }
+  
+  .form-group {
+	margin-bottom: 10px;
+  }
+  
+  label {
+	font-weight: bold;
+  }
+  
+  input, textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+  }
+  
+  button {
+	width: 100px;
+	margin-top: 10px;
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 5px;
+	border: none;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto; /* Senterkan container */
+  }
+  
+  /* ... CSS lainnya tetap sama ... */
+  
+  
+  .header-content {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .logo {
+	width: 200px;
+  }
+  
+  .h1 {
+	font-size: 30px;
+  }
+  
+  nav {
+	list-style-type: none;
+	margin: 10;
+	padding: 10;
+  }
+  
+  nav a {
+	color: #242323;
+	text-decoration: none;
+  }
+  
+  
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #07d355;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.left-column {
+	float: left;
+	width: 50%;
+  }
+  
+  .right-column {
+	float: right;
+	width: 50%;
+  }
+  
+  footer {
+	position: fixed; /* Gunakan position: fixed untuk menjaga footer tetap di bawah */
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #cacaca;
+	color: #242323;
+	padding: 1em;
+  }
+  
